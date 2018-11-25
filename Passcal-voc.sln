@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Passcal-voc", "Passcal-voc\Passcal-voc.vcxproj", "{0C1216EE-B33E-49A4-B809-3EE563F476C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A90087BF-7698-42D6-AD51-711E32EE451A} = {A90087BF-7698-42D6-AD51-711E32EE451A}
+		{B39ABBF3-0A95-46C4-83FB-8407AFDF2417} = {B39ABBF3-0A95-46C4-83FB-8407AFDF2417}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlActiveXDll", "BlActiveXDll\BlActiveXDll.vcxproj", "{0E73842E-3233-4075-94AB-46FA327E200D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlendWndDll", "BlendWndDll\BlendWndDll.vcxproj", "{B39ABBF3-0A95-46C4-83FB-8407AFDF2417}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0E73842E-3233-4075-94AB-46FA327E200D} = {0E73842E-3233-4075-94AB-46FA327E200D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgProcDll", "ImgProcDll\ImgProcDll.vcxproj", "{A90087BF-7698-42D6-AD51-711E32EE451A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0210ED7F-02B1-4811-8317-AB7B83D70B79} = {0210ED7F-02B1-4811-8317-AB7B83D70B79}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticCtrlDll", "StaticCtrlDll\StaticCtrlDll.vcxproj", "{0210ED7F-02B1-4811-8317-AB7B83D70B79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1216EE-B33E-49A4-B809-3EE563F476C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C1216EE-B33E-49A4-B809-3EE563F476C4}.Debug|Win32.Build.0 = Debug|Win32
+		{0C1216EE-B33E-49A4-B809-3EE563F476C4}.Release|Win32.ActiveCfg = Release|Win32
+		{0C1216EE-B33E-49A4-B809-3EE563F476C4}.Release|Win32.Build.0 = Release|Win32
+		{0E73842E-3233-4075-94AB-46FA327E200D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E73842E-3233-4075-94AB-46FA327E200D}.Debug|Win32.Build.0 = Debug|Win32
+		{0E73842E-3233-4075-94AB-46FA327E200D}.Release|Win32.ActiveCfg = Release|Win32
+		{0E73842E-3233-4075-94AB-46FA327E200D}.Release|Win32.Build.0 = Release|Win32
+		{B39ABBF3-0A95-46C4-83FB-8407AFDF2417}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B39ABBF3-0A95-46C4-83FB-8407AFDF2417}.Debug|Win32.Build.0 = Debug|Win32
+		{B39ABBF3-0A95-46C4-83FB-8407AFDF2417}.Release|Win32.ActiveCfg = Release|Win32
+		{B39ABBF3-0A95-46C4-83FB-8407AFDF2417}.Release|Win32.Build.0 = Release|Win32
+		{A90087BF-7698-42D6-AD51-711E32EE451A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A90087BF-7698-42D6-AD51-711E32EE451A}.Debug|Win32.Build.0 = Debug|Win32
+		{A90087BF-7698-42D6-AD51-711E32EE451A}.Release|Win32.ActiveCfg = Release|Win32
+		{A90087BF-7698-42D6-AD51-711E32EE451A}.Release|Win32.Build.0 = Release|Win32
+		{0210ED7F-02B1-4811-8317-AB7B83D70B79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0210ED7F-02B1-4811-8317-AB7B83D70B79}.Debug|Win32.Build.0 = Debug|Win32
+		{0210ED7F-02B1-4811-8317-AB7B83D70B79}.Release|Win32.ActiveCfg = Release|Win32
+		{0210ED7F-02B1-4811-8317-AB7B83D70B79}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
