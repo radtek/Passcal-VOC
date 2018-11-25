@@ -27,6 +27,7 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 *.vssscc
 $tf*/
-ipch/passcal-voc-5a5ba11f/passcal-voc-4e9eb28.ipch
-*/
+*.opensdf
 *.sdf
+*.ipch
+ipch*/
